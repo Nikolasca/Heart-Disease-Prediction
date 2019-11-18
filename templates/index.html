@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <h1>Bienvenido a PSCD </h1>
+    <h3>Prediction System for Heart Disease</h3>
+    <h4>Inserte los siguientes datos:</h4>
+    <form action="/api" method="POST">
+        <label for="formGroupExampleInput">Age</label> 
+        <input type="text" class="form-control"  id="formGroupExampleInput" name="age" placeholder="Age"  />
+    <label for="formGroupExampleInput">Sex</label> 
+     <input type="text" class="form-control"  name="sex" placeholder="Sex"  >
+    
+    
+    <label for="formGroupExampleInput">Chest Pain</label> 
+     <input type="text" class="form-control" name="cp" placeholder="Cp"  >
+
+     <label for="formGroupExampleInput">Fasting Blood Sugar</label> 
+     <input type="text"  class="form-control" name="trestbps" placeholder="tres"  >
+    
+    <label for="formGroupExampleInput">Resting Blood Pressure</label> 
+     <input type="text"  class="form-control" name="chol" placeholder="Chol"  >
+    
+    
+    <label for="formGroupExampleInput">Serum Cholestrol</label> 
+     <input type="text" class="form-control" name="fbs" placeholder="fbs"  >
+    
+
+    <label for="formGroupExampleInput">Resting ECG</label> 
+     <input type="text" class="form-control" name="restecg" placeholder="restecg"  >
+    
+    
+    <label for="formGroupExampleInput">  Max heart rate achieved</label> 
+     <input type="text" class="form-control" name="thalach" placeholder="Thalach"  >
+    
+    
+    <label for="formGroupExampleInput">Exercise induced angina</label> 
+     <input type="text" class="form-control"  name="exang" placeholder="Exang"  >
+    
+    
+    <label for="formGroupExampleInput">ST depression induced by exercise relative to rest</label> 
+     <input type="text" class="form-control"  name="oldpeak" placeholder="Exang"  >
+    
+    
+    <label for="formGroupExampleInput"> Peak exercise ST segment</label> 
+     <input type="text" class="form-control"  name="slope" placeholder="Slope"  >
+    
+  
+    <label for="formGroupExampleInput"> Number of major vessels (0–3)</label> 
+     <input type="text" class="form-control"  name="ca" placeholder="ca"  >
+    
+    
+    <label for="formGroupExampleInput"> Thalassemia:</label> 
+     <input type="text" class="form-control"  name="thal" placeholder="thal" >
+    
+    <button type="submit"  class="form-control"  class="btn btn-primary"> Predict </button><br>
+    </form>
+
+</head>
+<body>
+    
+</body>
+</html>
