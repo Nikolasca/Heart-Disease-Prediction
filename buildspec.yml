@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+    - echo "Pre Build phase" 
+  build:
+    commands:
+    - echo "Build phase"
+  post_build:
+    commands:
+    - echo "Post Build phase"
+artifacts:
+  files:
+    - imagedefinitions.json
